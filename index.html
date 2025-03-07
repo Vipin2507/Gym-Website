@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vipin Fitness</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      position: fixed;
+      font-family: "Tapestry", cursive;
+      margin: 0px;
+      padding: 0px;
+      background: url(img/834264.webp);
+    }
+    .left img {
+      width: 189px;
+      opacity: 0.9;
+      filter: invert(100%);
+    }
+    p {
+      font-family: "Tapestry", cursive;
+      display: block;
+      color: white;
+      margin: auto;
+      position: absolute;
+      left: 55px;
+      top: 147px;
+      font-size: 26px;
+    }
+    .left {
+      position: absolute;
+      left: 60px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid red; */
+    }
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid yellow; */
+    }
+    .mid {
+      display: block;
+      width: 45%;
+      margin: 20px auto;
+
+      /* border: 2px solid green; */
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 23px;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+    }
+    .navbar li a:hover {
+      text-decoration: overline;
+      color: rgb(35, 187, 149);
+    }
+    .navbar li a.active {
+      text-decoration: underline;
+      color: rgb(30, 178, 97);
+    }
+    .btn {
+      margin: 0px;
+      background-color: black;
+      color: white;
+      padding: 4px 14px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: rgb(15, 245, 176);
+    }
+    .container {
+      color: white;
+      border: 2px solid white;
+      margin: 137px 256px;
+      padding: 22px 143px;
+      width: 50%;
+      border-radius: 66px;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 508px;
+      padding: 1px;
+      border: 2px solid black;
+      margin: 20px auto;
+      font-size: 25px;
+      font-family: "Tapestry", cursive;
+    }
+    .container h1 {
+      text-align: center;
+      font-size: 66px;
+    }
+    .container button {
+      display: block;
+      margin: 20px auto;
+      width: 69%;
+      padding: 5px;
+      font-size: 22px;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="img/429d631659a11a9eb666b103d811470a.jpg" alt="" />
+        <p>Vipin Gym</p>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="a" class="active">Home</a></li>
+          <li><a href="a">About us</a></li>
+          <li><a href="a">Fitness Calculator</a></li>
+          <li><a href="a">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">Contact us</button>
+        <button class="btn">Support us</button>
+      </div>
+      <div class="container">
+        <h1>Join The Best Gym In Bhopal</h1>
+        <form action="noaction.php">
+          <div class="form-group">
+            <input type="text" name=" " placeholder="Enter your Name" />
+          </div>
+          <div class="form-group">
+            <input type="text" name=" " placeholder="Enter your Age" />
+          </div>
+          <div class="form-group">
+            <input type="text" name=" " placeholder="Enter your Gender" />
+          </div>
+          <div class="form-group">
+            <input type="text" name=" " placeholder="Enter your Locality" />
+          </div>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
